@@ -30,4 +30,4 @@ task generateSqlLexer(type: GenerateLexer) {
 }
 
 compileKotlin.dependsOn generateSqlLexer
-//dokkaHtml.dependsOn generateSqlLexer
+dokkaHtml.dependsOn generateSqlLexer
